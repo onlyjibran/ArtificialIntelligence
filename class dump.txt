@@ -1,0 +1,217 @@
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .gitignore
+        new file:   a.ipynb
+        new file:   a_rem - Copy.ipynb
+        new file:   b.ipynb
+        new file:   c.ipynb
+        new file:   sample.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        CLASS_NOTES.txt
+
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ git commit -m "my first git COMMIT"
+[master (root-commit) a014711] my first git COMMIT
+ Committer: Jibran Wasiq Syed <jsyed@illuminatics.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 1434 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 a.ipynb
+ create mode 100644 a_rem - Copy.ipynb
+ create mode 100644 b.ipynb
+ create mode 100644 c.ipynb
+ create mode 100644 sample.py
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ git config --global user.email "onlyjibran@gmail.com"
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ git config --global user.name "onlyjibran"
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ ^C
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ ^C
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ git commit -m "My Second Commmit"
+On branch master
+Untracked files:
+        CLASS_NOTES.txt
+
+nothing added to commit but untracked files present
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ git remote add origin https://github.com/onlyjibran/ArtificialIntelligence
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ ^C
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ ^C
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com':
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+
+giPassword for 'https://github.com': t
+fdf
+remote: Anonymous access to onlyjibran/ArtificialIntelligence.git denied.
+fatal: Authentication failed for 'https://github.com/onlyjibran/ArtificialIntelligence/'
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ gitfdf
+bash: gitfdf: command not found
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ git push -u origin master
+To https://github.com/onlyjibran/ArtificialIntelligence
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/onlyjibran/ArtificialIntelligence'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ git push -u origin master
+To https://github.com/onlyjibran/ArtificialIntelligence
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/onlyjibran/ArtificialIntelligence'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ git push -u origin master -m
+error: unknown switch `m'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=(check|on-demand|no)]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ git push -m origin master
+error: unknown switch `m'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=(check|on-demand|no)]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ git push -u origin master
+To https://github.com/onlyjibran/ArtificialIntelligence
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/onlyjibran/ArtificialIntelligence'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ git push -f origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 5.79 KiB | 658.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/onlyjibran/ArtificialIntelligence
+ + 4aca63b...a014711 master -> master (forced update)
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ ^C
+
+jsyed@jsyed-lapt MINGW64 ~/Desktop/Artificial Intelligence/Python Codes/GIT FOLDER (master)
+$ AAAA

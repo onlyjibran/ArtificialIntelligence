@@ -1,0 +1,33 @@
+git init # initialize GIT
+
+git status  #status of git
+
+git add filename.extension #adds the following file to track
+
+git add . #tracks all file in folder
+
+git add all #same as above, tracks all files in folder
+.gitignore #a file without a name but an extension which is used to specify which files/folders to ignore for GIT tracking
+
+
+
+git commit -m "comments here" # this commits the tracked files to GIT
+
+
+$ git config --global user.email "onlyjibran@gmail.com"  #configure the email address
+$ git config --global user.name "onlyjibran" #config the ID
+
+
+
+$ git remote add origin https://github.com/onlyjibran/ArtificialIntelligence #create gateway with your github cloud repository and local repository - this step need not be done everytime
+
+
+$ git push -f origin master #this would upload the commited files to GIT - 
+
+$ git add abc.txt #adds the file abc.txt tracking
+
+$ git rm --cached abc.txt #untracks a file
+
+
+git clone https://github.com/onlyjibran/ArtificialIntelligence.git # get this hyper link from GITHUB > clone and then use this command to download the latest version of the respisitory - 
+
